@@ -1,0 +1,20 @@
+/backend
+│── /src
+│   │── /auth
+│   │   ├── auth.controller.ts  # Handles login/signup routes
+│   │   ├── auth.module.ts      # NestJS module for auth
+│   │   ├── auth.service.ts     # Handles authentication logic
+│   │   ├── auth.dto.ts         # Data Transfer Objects for requests
+│   │── /users
+│   │   ├── users.controller.ts # User-related endpoints
+│   │   ├── users.service.ts    # User database operations
+│   │   ├── users.module.ts     # Users module
+│   │   ├── user.schema.ts      # Mongoose schema for users
+│   │── /common
+│   │   ├── jwt.guard.ts        # JWT Authentication Guard
+│   │   ├── jwt.strategy.ts     # JWT Passport strategy
+│   │── main.ts                 # Main entry point
+│── package.json
+│── .env
+│── Dockerfile
+│── docker-compose.yml
