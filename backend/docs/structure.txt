@@ -4,11 +4,11 @@
 │   │   ├── auth.controller.ts  # Handles login/signup routes
 │   │   ├── auth.module.ts      # NestJS module for auth
 │   │   ├── auth.service.ts     # Handles authentication logic
-│   │   ├── auth.dto.ts         # Data Transfer Objects for requests
+│   │   ├── login.dto.ts         # Data Transfer Objects for requests
 │   │── /users
-│   │   ├── users.controller.ts # User-related endpoints
-│   │   ├── users.service.ts    # User database operations
-│   │   ├── users.module.ts     # Users module
+│   │   ├── user.controller.ts # User-related endpoints
+│   │   ├── user.service.ts    # User database operations
+│   │   ├── user.module.ts     # Users module
 │   │   ├── user.schema.ts      # Mongoose schema for users
 │   │── /common
 │   │   ├── jwt.guard.ts        # JWT Authentication Guard

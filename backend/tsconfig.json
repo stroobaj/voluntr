@@ -15,7 +15,15 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "target": "ES2024",
-    "emitDecoratorMetadata": true, // for NestJS dependency injection
+    "emitDecoratorMetadata": true,
+    // for NestJS dependency injection
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+      // Ensure aliases point to "src"
+    }
   },
   "exclude": [
     "node_modules",
